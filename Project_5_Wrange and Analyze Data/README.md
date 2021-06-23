@@ -6,7 +6,7 @@ In this project, I will analyze the data from [WeRateDogs](https://twitter.com/d
 
 The dataset contains information about @dog_rates tweets (tweet ID, timestamp, text,etc.) for all 5000+ of their tweets since August1, 2017. Ratings come in a special format: they almost always have a denominator of 10. The numerators are usually are higher than 10. 11/10, 12/10, 13/10, etc.
 
-![alt	text] (https://video.udacity-data.com/topher/2017/October/59dd378f_dog-rates-social/dog-rates-social.jpg "Who doesn't love dogs?")
+![alt	text] (https://video.udacity-data.com/topher/2017/October/59dd378f_dog-rates-social/dog-rates-social.jpg)
 
 ## Procedures
 
