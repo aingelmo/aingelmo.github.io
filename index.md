@@ -6,6 +6,10 @@ Hi! Welcome to my personal GitHub page. In this website, I will try to show my c
 
 You can start by checking my [COVID SQL data analysis](./COVID/README.md) or taking a look to my [CV](./CV.md).
 
+---
+Template
+---
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
