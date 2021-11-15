@@ -2,6 +2,10 @@
 layout: default
 ---
 
+Hi! Welcome to my personal GitHub page. In this website, I will try to show my coding and data analysis skills.
+
+Let's start by showing my [**COVID SQL data analysis**] (./COVID/README.md)
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
