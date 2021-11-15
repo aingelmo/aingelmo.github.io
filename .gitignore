@@ -1,2 +1,2 @@
-COVID/*
-web
+COVID/.*
+COVID/config/__*
