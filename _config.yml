@@ -35,7 +35,7 @@ dribbble_username:
 spotify_username: 
 
 # Google Analytics
-google-analytics: UA-163806439-1
+google-analytics: G-Z7PCDR6TJ1
 
 # Disqus
 disqus-shortname: aingelmo
@@ -45,7 +45,7 @@ author-name: Andrés Ingelmo Poveda
 # URL for the Image of the Author
 author-image: https://avatars.githubusercontent.com/u/40967346?v=4
 # 60 Words About the Author
-author-about: Economist with an MBA in International Management focused in making businesses grow by analyzing data.
+author-about: Economist with an MBA in International Management focused on making businesses grow by analyzing data.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/aingelmo
 
