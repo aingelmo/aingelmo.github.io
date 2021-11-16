@@ -15,7 +15,7 @@
 *	Universities relations manager: expanding the business to the academic community through data analysis.
 
 ### January 2020 - December 2020
-**International Trade Advisor** - <a href="http://www.exteriores.gob.es/embajadas/varsovia/es/Paginas/inicio.aspx" target="_blank">Advisor/Economic and Commercial Office of the Spanish Embassy in Warsaw</a>
+**International Trade Advisor** - <a href="http://www.exteriores.gob.es/embajadas/varsovia/es/Paginas/inicio.aspx" target="_blank">Economic and Commercial Office of the Spanish Embassy in Warsaw</a>
 *	Macroeconomic data reporting through Excel pivot tables and charts.
 *	Publication of market research studies regarding public lighting and e-commerce focusing on data visualization.
 *	IT Officer for Warsaw, Vilnius and Kiev: save up to 30% of costs related to online conferences by deploying open-source streaming software.
