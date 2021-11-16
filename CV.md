@@ -20,15 +20,6 @@
 *	Publication of market research studies regarding public lighting and e-commerce focusing on data visualization.
 *	IT Officer for Warsaw, Vilnius and Kiev: save up to 30% of costs related to online conferences by deploying open-source streaming software.
 
-### June 2018 - December 2019
-**Crossfit and Weightlifing Coach** - <a href="https://www.frogfitsalamanca.com/" target="_blank">FrogFit Salamanca</a>
-
-### April 2017 - August 2017
-**Administrative Assistant** - <a href="https://functional-u.com.au/" target="_blank">Crossfit U Melbourne</a>
-
-### June 2015 - December 2015
-**Junior Accountant** - <a href="https://pccontabdos.asesoriaweb.com/principal/default.asp" target="_blank">PC Contab</a>
-
 ---
 
 ## Education
