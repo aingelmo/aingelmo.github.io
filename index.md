@@ -4,7 +4,7 @@ layout: default
 
 Hi! Welcome to my personal GitHub page. In this website, I will try to show my coding and data analysis skills.
 
-You can start by checking my [COVID SQL data analysis](./COVID/README.md) or taking a look to my [CV](./CV.md).
+You can start by checking my [COVID SQL data analysis](./Portfolio/COVID/README.md) or taking a look to my [CV](./CV.md).
 
 ---
 Template
