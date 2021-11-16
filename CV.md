@@ -1,4 +1,5 @@
 # Curriculum Vitae
+
 ## Experience
 
 #### July 2021 - Present
@@ -27,6 +28,8 @@ Administrative Assistant - <a href="https://functional-u.com.au/" target="_blank
 
 #### June 2015 - December 2015
 Junior Accountant - <a href="https://pccontabdos.asesoriaweb.com/principal/default.asp" target="_blank">PC Contab</a>
+
+---
 
 ## Education
 
