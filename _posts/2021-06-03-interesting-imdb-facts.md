@@ -9,7 +9,7 @@ tags:
 - data analysis
 ---
 
-[IMBD](https://imdb.com) is the biggest source of information regarding movies in the world. By analyzing its whole database, we can get some insights in very interesting matters. For example, have you ever wonder what is the most popular genre over the years? Are the new movies more profitable than older ones? Find the answers to all your questions in this post!
+[IMBd](https://imdb.com) is the biggest source of information regarding movies in the world. By analyzing its whole database, we can get some insights in very interesting matters. For example, have you ever wonder what is the most popular genre over the years? Are the new movies more profitable than older ones? Find the answers to all your questions in this post!
 
 # Dataset
 The dataset used for the analysis contains information from more than 10k movies from the well-known website "IMDb". The dataset columns give information regarding to popularity, genres, revenue, budget and release year among others. It is structured in the following way:
@@ -46,14 +46,14 @@ dtypes: float64(4), int64(6), object(11)
 # Exploratory data analysis
 Usually, when performing an analysis, starting with an histogram is a good idea. By doing this, we can get very helpful insights regarding the dataset.
 
-![imdb-hist](/WhatATheme/assets/images/imdb-facts/imdb_histogram.png)
+![imdb-hist](/assets/images/imdb-facts/imdb_histogram.png)
 
 From this histogram we can get two obvious facts: a lot of new movies have been made in the last twenty years and the average vote results is around 6. But let's do a more profound analysis.
 
 ## How many movies have been done over the years?
 It is nice to begin our analysis detailing the previous exposed fact. Taking a look at the following graph, we can notice that the movie industry has skyrocketed in the past twenty years. 
 
-![imdb-movies-count](/WhatATheme/assets/images/imdb-facts/imdb_movies_count.png)
+![imdb-movies-count](/assets/images/imdb-facts/imdb_movies_count.png)
 
 More and more movies are being done. The sector is booming but, are all of them profitable? Let's find out.
 
@@ -136,14 +136,14 @@ Taking a deeper look into the table we find a interest fact. All of the movies w
 ## Are more popular movies more profitable?
 A common assumption to think is that more popular movies should gross higher revenue. However, does this relate to profit? In the following graph we can see a relation between profit a popularity.
 
-![imdb-popularity-profit](/WhatATheme/assets/images/imdb-facts/imdb_popularity_profit.png)
+![imdb-popularity-profit](/assets/images/imdb-facts/imdb_popularity_profit.png)
 
 Taking a look at the graph above, we may conclude that more popular movies tend to be more profitable and it makes sense. More popular movies have a higher change of grossing a higher revenue, the more revenue a movie raise, the more potential it has to become profitable.
 
 ## What is the average vote rating?
 Another important insight we can get from the data is the average vote rating from users. This would allow us to know if a movie is above the average or below. If a movie rating is higher than the median, the chances of it being good are higher than if the rate is lower.
 
-![imdb-movies-rating](/WhatATheme/assets/images/imdb-facts/imdb_movies_rating.png)
+![imdb-movies-rating](/assets/images/imdb-facts/imdb_movies_rating.png)
 
 Based on the previous histogram, we can conclude that most of the movies are rated near 6. Let's detail it.
 
@@ -163,7 +163,7 @@ The median is exactly 6. This means that 50% of movies are above 6 and 50% below
 ## Are newer movies worst than old ones?
 This is another question that may arise. Ok, we know the average rating of movies but, are the new ones worst rated? Let's find out. The following groups the movies newer than 2006 (included) and older than 2006. 
 
-![imdb-movies-rating-old-new.png](/WhatATheme/assets/images/imdb-facts/imdb_movies_rating_old_new.png)
+![imdb-movies-rating-old-new.png](/assets/images/imdb-facts/imdb_movies_rating_old_new.png)
 
 The graph shows that old movies are slightly better rated than new movies. However, the difference is noth enough to affirm that old movies are better than new movies.
 
