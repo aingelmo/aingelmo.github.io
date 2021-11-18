@@ -18,7 +18,7 @@ site-keywords: Site, Template, Theme
 favicon-url: 
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+heroimage: https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
@@ -45,7 +45,7 @@ author-name: Andrés Ingelmo Poveda
 # URL for the Image of the Author
 author-image: https://avatars.githubusercontent.com/u/40967346?v=4
 # 60 Words About the Author
-author-about: Andrés Ingelmo holds an MBA in International Management from the ICEX-CECO and a Bachelor Degree in Economics from the University of Salamanca. In 2021, after living in multiple countries and worked in a wide variety of fields, he decided to start pursuing his career in data analysis. 
+author-about: Andrés Ingelmo holds an MBA in International Management from the ICEX-CECO and a Bachelor Degree in Economics from the University of Salamanca. In 2021, after living in multiple countries and having worked in a wide variety of fields, he decided to start pursuing his career in data analysis. 
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/aingelmo
 
