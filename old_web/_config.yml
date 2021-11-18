@@ -1,0 +1,107 @@
+<<<<<<< HEAD
+# WhatATheme
+markdown: kramdown
+
+# URL of the Site
+url: 'https://aingelmo.github.io'
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: '/WhatATheme'
+
+# Title of the Site
+title: Andrés Ingelmo Poveda
+# Description of the Site
+description: Portfolio spotlight for Andrés Ingelmo's projects
+# URL of Image of the Site
+site-image: /WhatATheme/assets/images/meta.jpg
+# Keywords of the Site
+site-keywords: Site, Template, Theme
+# URL for the Image of custom Favicon
+favicon-url: 
+
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+heroimage: https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg
+
+# Social Media and Contact
+# If you don't want to use any icon, you can leave them blank.
+email: aingelmop@gmail.com
+facebook_username: 
+twitter_username: 
+instagram_username: 
+linkedin_username: aingelmop
+github_username:  aingelmo
+youtube_channel_id:
+reddit_username: 
+behance_username: 
+dribbble_username: 
+spotify_username: 
+
+# Google Analytics
+google-analytics: G-Z7PCDR6TJ1
+
+# Disqus
+disqus-shortname: aingelmo
+
+# Name of the Author
+author-name: Andrés Ingelmo Poveda
+# URL for the Image of the Author
+author-image: https://avatars.githubusercontent.com/u/40967346?v=4
+# 60 Words About the Author
+author-about: Andrés Ingelmo holds an MBA in International Management from the ICEX-CECO and a Bachelor Degree in Economics from the University of Salamanca. In 2021, after living in multiple countries and having worked in a wide variety of fields, he decided to start pursuing his career in data analysis. In his free time, he loves to play videogames and perform different sports.
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: https://github.com/aingelmo
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+
+# Permalink
+permalink: "blog/:title"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+=======
+title: Andrés Ingelmo Personal Page
+description: Spotlight for personal projects and professional career.
+show_downloads: true
+google_analytics: G-CK8KWH4WLX
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+>>>>>>> 26debac804fa4013d996128223e70092d0eb9a91
