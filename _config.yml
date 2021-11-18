@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # WhatATheme
 markdown: kramdown
 
@@ -95,3 +96,12 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+=======
+title: Andrés Ingelmo Personal Page
+description: Spotlight for personal projects and professional career.
+show_downloads: true
+google_analytics: G-CK8KWH4WLX
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+>>>>>>> 26debac804fa4013d996128223e70092d0eb9a91
