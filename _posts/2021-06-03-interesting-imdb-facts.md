@@ -9,7 +9,7 @@ tags:
 - data analysis
 ---
 
-[IMBd](https://imdb.com) is the biggest source of information regarding movies in the world. By analyzing its whole database, we can get some insights in very interesting matters. For example, have you ever wonder what is the most popular genre over the years? Are the new movies more profitable than older ones? Find the answers to all your questions in this post!
+[IMBd](https://imdb.com){:target="_blank"} is the biggest source of information regarding movies in the world. By analyzing its whole database, we can get some insights in very interesting matters. For example, have you ever wonder what is the most popular genre over the years? Are the new movies more profitable than older ones? Find the answers to all your questions in this post!
 
 # Dataset
 The dataset used for the analysis contains information from more than 10k movies from the well-known website "IMDb". The dataset columns give information regarding to popularity, genres, revenue, budget and release year among others. It is structured in the following way:
@@ -169,7 +169,7 @@ The graph shows that old movies are slightly better rated than new movies. Howev
 
 # Conclusion
 
-I could be exposing insights regarding this dataset. However, the post is getting to long so I will stop there. **If you are interested in knowing more about movies and the procedures used to clean and draw conclusions, please take a [look at my jupyter notebook](https://github.com/aingelmo/aingelmo.github.io/blob/main/Portfolio/Udacity/Project_2_Investigate%20a%20Dataset/investigate-a-dataset-template.ipynb).**
+I could be exposing insights regarding this dataset. However, the post is getting to long so I will stop there. **If you are interested in knowing more about movies and the procedures used to clean and draw conclusions, please take a look at [my jupyter notebook](https://github.com/aingelmo/portfolio/blob/main/Udacity/Project_2_Investigate%20a%20Dataset/investigate-a-dataset-template.ipynb){:target="_blank"}.**
 
 After analyzing the dataset, we may conclude the following:
 *   Lots of movies are being done nowadays. However, this doesn't imply that all of them are profitable. The probabily of failing is as high as succeeding. _Avatar_, released in 2009, is the highest-grossing movie of all time and second most profitable. However, _The Lone Ranger_, released in 2013, is the worst profitable movie of all times. Studios shold be careful when releasing movies nowadays as people have more leisure activity options than 40 years ago.
