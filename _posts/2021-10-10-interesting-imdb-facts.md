@@ -127,7 +127,7 @@ Not all the movies are good. Some of them have a very high budget but perform ba
 | 5508 | The Lone Ranger   | 7/3/13         | Gore Verbinski             |  2.38689e+08 |   8.35783e+07 | -1.5511e+08  |
 | 7031 | The Alamo         | 4/7/04         | John Lee Hancock           |  1.67395e+08 |   2.98077e+07 | -1.37587e+08 |
 | 2435 | The 13th Warrior  | 8/27/99        | John McTiernan             |  2.09448e+08 |   8.07671e+07 | -1.28681e+08 |
-| 4970 | Brother Bear      | 10/20/03       | Aaron Blaise|Robert Walker |  1.18535e+08 | 296.338       | -1.18535e+08 |
+| 4970 | Brother Bear      | 10/20/03       | Aaron Blaise, Robert Walker |  1.18535e+08 | 296.338       | -1.18535e+08 |
 
 Again, _The Warrior's Way_ appears to be the worst. However, we know that the budget is not correct so let's move to the second. **The Lone Ranger**, released by Disney in 2013 is the worst movie ever in economic terms. It made the studio lose more than 150,000,000 dolars. That is a huge loss!
 
