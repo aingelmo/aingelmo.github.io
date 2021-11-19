@@ -324,6 +324,7 @@ a.navbar-item.is-active {
             background-color: grey;
         }
         img, iframe {
+            display: block;
             max-width: calc(100% - 25vw);
             margin: 0.25rem auto;
             @media (max-width: 768px) {
