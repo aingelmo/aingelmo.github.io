@@ -3,5 +3,6 @@ layout: page
 title: Dashboard
 ---
 
-<iframe src='https://aingelmo-dash-test.herokuapp.com/' width="1000" height="1000">
-</iframe>
+<div class="wraper">
+    <iframe src='https://aingelmo-dash-test.herokuapp.com/'></iframe>
+</div>
