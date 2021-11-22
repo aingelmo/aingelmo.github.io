@@ -4,5 +4,5 @@ title: Dashboard
 ---
 
 <div class="wraper">
-    <iframe src='https://aingelmo-dash-test.herokuapp.com/'></iframe>
+    <iframe src='https://aingelmo-covid-dash.herokuapp.com/'></iframe>
 </div>
