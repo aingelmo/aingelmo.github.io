@@ -11,9 +11,11 @@ tags:
 
 [IMBd](https://imdb.com){:target="_blank"} is the biggest source of information regarding movies in the world. By analyzing its whole database, we can get some insights in very interesting matters. For example, have you ever wonder what is the most popular genre over the years? Are the new movies more profitable than older ones? Find the answers to all your questions in this post!
 
-# Dataset
+## Dataset
+
 The dataset used for the analysis contains information from more than 10k movies from the well-known website "IMDb". The dataset columns give information regarding to popularity, genres, revenue, budget and release year among others. It is structured in the following way:
-```
+
+```text
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 10866 entries, 0 to 10865
 Data columns (total 21 columns):
@@ -43,22 +45,25 @@ Data columns (total 21 columns):
 dtypes: float64(4), int64(6), object(11)
 ```
 
-# Exploratory data analysis
+## Exploratory data analysis
+
 Usually, when performing an analysis, starting with an histogram is a good idea. By doing this, we can get very helpful insights regarding the dataset.
 
 ![imdb-hist](/assets/images/imdb-facts/imdb_histogram.png)
 
 From this histogram we can get two obvious facts: a lot of new movies have been made in the last twenty years and the average vote results is around 6. But let's do a more profound analysis.
 
-## How many movies have been done over the years?
-It is nice to begin our analysis detailing the previous exposed fact. Taking a look at the following graph, we can notice that the movie industry has skyrocketed in the past twenty years. 
+### How many movies have been done over the years?
+
+It is nice to begin our analysis detailing the previous exposed fact. Taking a look at the following graph, we can notice that the movie industry has skyrocketed in the past twenty years.
 
 ![imdb-movies-count](/assets/images/imdb-facts/imdb_movies_count.png)
 
 More and more movies are being done. The sector is booming but, are all of them profitable? Let's find out.
 
-## What are the most expensive movies ever made?
-At this point you may be wondering what is the most expensive movie ever made and our dataset allow us to do that. 
+### What are the most expensive movies ever made?
+
+At this point you may be wondering what is the most expensive movie ever made and our dataset allow us to do that.
 
 |      | original_title                              | release_date   | director       |   budget_adj |   revenue_adj |
 |-----:|:--------------------------------------------|:---------------|:---------------|-------------:|--------------:|
@@ -74,7 +79,8 @@ Knowing that, the second in place must be the highest budgeted movie in history:
 
 This movies are super expensive but, are they really the ones that get the most revenue? We'll find out.
 
-## What are the highest-grossing films ever made?
+### What are the highest-grossing films ever made?
+
 It is nice to know the most expensive movies ever made but, what about the highest-grossing ones?
 
 |       | original_title   | release_date   | director         |   budget_adj |   revenue_adj |
@@ -85,15 +91,16 @@ It is nice to know the most expensive movies ever made but, what about the highe
 | 10594 | The Exorcist     | 12/26/73       | William Friedkin |  3.92893e+07 |   2.16732e+09 |
 |  9806 | Jaws             | 6/18/75        | Steven Spielberg |  2.83627e+07 |   1.90701e+09 |
 
-**Avatar**, a movie directed by James Cameron and released in 2007, is the highest grossing movie with more than 2.8 billion dolars in box office. But this is not the only James Cameron movie in the top 5! _Titanic_, released in 1997, was also directed by him! What a guy! 
+**Avatar**, a movie directed by James Cameron and released in 2007, is the highest grossing movie with more than 2.8 billion dolars in box office. But this is not the only James Cameron movie in the top 5! _Titanic_, released in 1997, was also directed by him! What a guy!
 
-There are other well-known movies on the list like _Star Wars_ by George Lucas or _Jaws_ by Steven Spielberg. 
+There are other well-known movies on the list like _Star Wars_ by George Lucas or _Jaws_ by Steven Spielberg.
 
 Another important insight we may find is that three out of the five highest-grossing films ever made were done in the 1970s. Maybe people had less leisure options back then.
 
 Now we know the movies that made the highest box office in history but some may be interested in knowing the profit. Because, yes, you can earn a lot but, if you cost a lot... that isn't great news.
 
-## What are the most profitable movies ever made?
+### What are the most profitable movies ever made?
+
 Profitability can be measured in a variety of ways. It can be absolute or relative. In absolute terms, super productions will have an advantage because they are made to sell a lot. Let's check it out.
 
 |       | original_title   | release_date   | director         |   budget_adj |   revenue_adj |   profit_adj |
@@ -118,7 +125,8 @@ In this list, **Paranormal Activity**, a horror movie directed by Oren Peli rele
 
 Taking a look at the list, we may find some other interesting insights. _The Blair Witch Project_ and _Eraserhead_ are also horror movies. Seems like this genre is very profitable!
 
-## What are the biggest deceptions in history?
+### What are the biggest deceptions in history?
+
 Not all the movies are good. Some of them have a very high budget but perform badly in box office. We call this a deception. Let's take a look at the movies with the worst profit in history.
 
 |      | original_title    | release_date   | director                   |   budget_adj |   revenue_adj |   profit_adj |
@@ -133,14 +141,16 @@ Again, _The Warrior's Way_ appears to be the worst. However, we know that the bu
 
 Taking a deeper look into the table we find a interest fact. All of the movies were super expensive, costing more than 100,000,000 dolars. It looks like super productions can turn in a studio's biggest enemy.
 
-## Are more popular movies more profitable?
+### Are more popular movies more profitable?
+
 A common assumption to think is that more popular movies should gross higher revenue. However, does this relate to profit? In the following graph we can see a relation between profit a popularity.
 
 ![imdb-popularity-profit](/assets/images/imdb-facts/imdb_popularity_profit.png)
 
 Taking a look at the graph above, we may conclude that more popular movies tend to be more profitable and it makes sense. More popular movies have a higher change of grossing a higher revenue, the more revenue a movie raise, the more potential it has to become profitable.
 
-## What is the average vote rating?
+### What is the average vote rating?
+
 Another important insight we can get from the data is the average vote rating from users. This would allow us to know if a movie is above the average or below. If a movie rating is higher than the median, the chances of it being good are higher than if the rate is lower.
 
 ![imdb-movies-rating](/assets/images/imdb-facts/imdb_movies_rating.png)
@@ -160,20 +170,22 @@ Based on the previous histogram, we can conclude that most of the movies are rat
 
 The median is exactly 6. This means that 50% of movies are above 6 and 50% below 6. The highest rated movie in the dataset is 9.2 while the lowest is 1.5. We also may say that a movie with a rating above 6 has higher chances of being good.
 
-## Are newer movies worst than old ones?
-This is another question that may arise. Ok, we know the average rating of movies but, are the new ones worst rated? Let's find out. The following groups the movies newer than 2006 (included) and older than 2006. 
+### Are newer movies worst than old ones?
+
+This is another question that may arise. Ok, we know the average rating of movies but, are the new ones worst rated? Let's find out. The following groups the movies newer than 2006 (included) and older than 2006.
 
 ![imdb-movies-rating-old-new.png](/assets/images/imdb-facts/imdb_movies_rating_old_new.png)
 
 The graph shows that old movies are slightly better rated than new movies. However, the difference is noth enough to affirm that old movies are better than new movies.
 
-# Conclusion
+## Conclusion
 
 I could be exposing insights regarding this dataset. However, the post is getting to long so I will stop there. **If you are interested in knowing more about movies and the procedures used to clean and draw conclusions, please take a look at [my jupyter notebook](https://github.com/aingelmo/portfolio/blob/main/Udacity/Project_2_Investigate%20a%20Dataset/investigate-a-dataset-template.ipynb){:target="_blank"}.**
 
 After analyzing the dataset, we may conclude the following:
-*   Lots of movies are being done nowadays. However, this doesn't imply that all of them are profitable. The probabily of failing is as high as succeeding. _Avatar_, released in 2009, is the highest-grossing movie of all time and second most profitable. However, _The Lone Ranger_, released in 2013, is the worst profitable movie of all times. Studios shold be careful when releasing movies nowadays as people have more leisure activity options than 40 years ago.
-*   Horror movies seems to perform well in terms of yield. _Paranormal Activity_ multiplied its budget by more than 12,000 times in revenue. This is a huge success, as well as _The Blair Witch Project_ and _Eraserhead_.
-*   Older movies are better rated than newer ones. In the old days, as less movies were made, it was easier to make a good movie. However, nowadays the probability of making a bad movie is higher as the amount of movies has increased a lot.
+
+* Lots of movies are being done nowadays. However, this doesn't imply that all of them are profitable. The probabily of failing is as high as succeeding. _Avatar_, released in 2009, is the highest-grossing movie of all time and second most profitable. However, _The Lone Ranger_, released in 2013, is the worst profitable movie of all times. Studios shold be careful when releasing movies nowadays as people have more leisure activity options than 40 years ago.
+* Horror movies seems to perform well in terms of yield. _Paranormal Activity_ multiplied its budget by more than 12,000 times in revenue. This is a huge success, as well as _The Blair Witch Project_ and _Eraserhead_.
+* Older movies are better rated than newer ones. In the old days, as less movies were made, it was easier to make a good movie. However, nowadays the probability of making a bad movie is higher as the amount of movies has increased a lot.
 
 Thank you for reading until the end. Hope you enjoyed it!

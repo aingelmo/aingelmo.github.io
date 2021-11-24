@@ -13,10 +13,11 @@ tags:
 
 One of the most common questions when building a new website is: will it perform better than the old one? Would people like it more? This is where A/B testing excels. This experiment allow us to compare two different samples and draw conclusions out of them. For example, the old page (A) against the new page (B).
 
-# Dataset
+## Dataset
+
 The dataset used in this analysis was provided by Udacity and it folows the next structure:
 
-```
+```text
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 294478 entries, 0 to 294477
 Data columns (total 5 columns):
@@ -41,10 +42,12 @@ We may even have a look at the first five observations to get a clear sight of w
 |  3 |    853541 | 2017-01-08 18:28:03.143765 | treatment | new_page       |           0 |
 |  4 |    864975 | 2017-01-21 01:52:26.210827 | control   | old_page       |           1 |
 
-# Data preparation
+## Data preparation
+
 In order to begin the analysis, we need to prepare the data by distributing it in two diferent groups:
-*   Treatment: people who received the new landing page
-*   Control: people who received the old landing page.
+
+* Treatment: people who received the new landing page
+* Control: people who received the old landing page.
 
 The probability of receiving any of the pages is 50%. Another important data is the conversion rate for each of the groups:
 
@@ -54,12 +57,12 @@ The probability of receiving any of the pages is 50%. Another important data is 
 | treatment |   new_page        |   0.11880806551510564       |
 |   both    |   both            |   0.11959708724499628       |
 
-
 The difference between the probability of being converted by the new website and the old website in our population is $$obsdiff = -0.0015782389853555567$$.
 
 However, with this data, we cannot draw any conclusions so, let's perform and A/B test.
 
-# A/B Test
+## A/B Test
+
 The first part of an A/B test is defining the hypothesis and the error amount we want to accept. We should define a null hyphothesis that we know it's true and a an alternative one to reject the null. In this case:
 
 $$H_0: p_{new} - p_{old} <= 0$$
@@ -102,7 +105,8 @@ The $$p-value$$ means than 90% of the values are greater than the observed diffe
 
 In this case, the $$p-value$$ is 0.9085 which is more than error 1 margin (0.05) This means that we do not have enough evidence to reject the null and, if we did it, we would be incuring in the worst error possible: a fake positive.
 
-# Conclusions
+## Conclusions
+
 After analyzing the dataset and performing an A/B testing, we do not have enough evidence to support the null hypothesis. In other words, we cannot say that the new website will bring more conversions based on the actual data. We would need to run the test for longer to check if the data changes or, discard the posibility of building a new website that way.
 
 Thank you for reading until the end. If you are interested in knowing more about the calculations or a more detailed analysis, please, check my **[jupyter notebook](https://github.com/aingelmo/portfolio/blob/main/Udacity/Project_3_Analyze%20AB%20Test%20Results/Analyze_ab_test_results_notebook.ipynb)**.

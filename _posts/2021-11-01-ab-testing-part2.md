@@ -13,10 +13,11 @@ tags:
 
 ---
 
-# Introduction
+## Introduction
+
 In the [last post](https://aingelmo.github.io/blog/ab-testing-part1){:target="_blank"}, we tried to perform an A/B test for a website in order to deploy a new website or not. However, all the calculations were done in a 'manual' way. Python offers us the possibility to use buil-ins to achive similar results. This built-ins are easier to code.
 
-# Calculations
+## Calculations
 
 We will use **statsmodel** module to perform the same A/B test than before.
 
@@ -51,9 +52,10 @@ stat, pval = proportions_ztest(counts, nobs, alternative='smaller')
 ```
 
 where:
-*   `counts` is the number of successes in nobs observations.
-*   `nobs` is the number of observations.
-*   `alternative` is the the kind of hypothesis testing we are doing. In this case, we want to know if $$H_{1}$$ performs better than $$H_{0}$$ so we will select `smaller`.
+
+* `counts` is the number of successes in nobs observations.
+* `nobs` is the number of observations.
+* `alternative` is the the kind of hypothesis testing we are doing. In this case, we want to know if $$H_{1}$$ performs better than $$H_{0}$$ so we will select `smaller`.
 
 The data throwed by the proportion z_test is the following:
 
@@ -61,5 +63,6 @@ $$stat = 1.3109241984234394$$
 
 $$pval = 0.9050583127590245$$
 
-# Conclusion
-The $$stat$$ equals to 1.31 which translates to a $$pval$$ is 0.90. This is higher than our error 1 margin rate ($\alpha$) of 0.05 that we set on the beginning. This means that we do not have enough evidence to reject the null. In other words, we cannot say, based on the data we have, that the new website provides more conversions than the old one. 
+## Conclusion
+
+The $$stat$$ equals to 1.31 which translates to a $$pval$$ is 0.90. This is higher than our error 1 margin rate ($\alpha$) of 0.05 that we set on the beginning. This means that we do not have enough evidence to reject the null. In other words, we cannot say, based on the data we have, that the new website provides more conversions than the old one.
