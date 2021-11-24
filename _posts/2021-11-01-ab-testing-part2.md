@@ -14,7 +14,7 @@ tags:
 ---
 
 # Introduction
-In the [last post](https://aingelmo.github.io/blog/ab-testing-part1), we tried to perform an A/B test for a website in order to deploy a new website or not. However, all the calculations were done in a 'manual' way. Python offers us the possibility to use buil-ins to achive similar results. This built-ins are easier to code.
+In the [last post](https://aingelmo.github.io/blog/ab-testing-part1){:target="_blank"}, we tried to perform an A/B test for a website in order to deploy a new website or not. However, all the calculations were done in a 'manual' way. Python offers us the possibility to use buil-ins to achive similar results. This built-ins are easier to code.
 
 # Calculations
 
