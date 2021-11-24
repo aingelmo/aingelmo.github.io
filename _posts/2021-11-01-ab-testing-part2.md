@@ -13,11 +13,14 @@ tags:
 
 ---
 
-In the last post, we tried to perform an A/B test for a website in order to deploy a new website or not. However, all the calculations were done in a 'manual' way. Python offers us the possibility to use buil-ins to achive similar results. This built-ins are easier to code.
+# Introduction
+In the [last post](https://aingelmo.github.io/blog/ab-testing-part1), we tried to perform an A/B test for a website in order to deploy a new website or not. However, all the calculations were done in a 'manual' way. Python offers us the possibility to use buil-ins to achive similar results. This built-ins are easier to code.
+
+# Calculations
 
 We will use **statsmodel** module to perform the same A/B test than before.
 
-First, let's count the converted users byt the landing page that converted them:
+First, let's count the converted users by the landing page that converted them:
 
 ```python
 convert_old = df2.query('landing_page == "old_page" & converted == 1').shape[0]
@@ -58,4 +61,5 @@ $$stat = 1.3109241984234394$$
 
 $$pval = 0.9050583127590245$$
 
-The $$stat$$ equals to 1.31 whic translates to a $$pval$$ is 0.90. This is higher than our error 1 margin rate ($\alpha$) of 0.05 that we set on the beginning. This means that we do not have enough evidence to reject the null. In other words, we cannot say, based on the data we have, that the new website provides more conversions than the old one. 
+# Conclusion
+The $$stat$$ equals to 1.31 which translates to a $$pval$$ is 0.90. This is higher than our error 1 margin rate ($\alpha$) of 0.05 that we set on the beginning. This means that we do not have enough evidence to reject the null. In other words, we cannot say, based on the data we have, that the new website provides more conversions than the old one. 
