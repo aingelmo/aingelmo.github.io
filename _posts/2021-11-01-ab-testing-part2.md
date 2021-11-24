@@ -9,13 +9,13 @@ tags:
 - data analysis
 - A/B test
 - probability
-- statsmodel
+- statsmodels
 
 ---
 
 ## Introduction
 
-In the [last post](https://aingelmo.github.io/blog/ab-testing-part1){:target="_blank"}, we tried to perform an A/B test for a website in order to deploy a new website or not. However, all the calculations were done in a 'manual' way. Python offers us the possibility to use buil-ins to achive similar results. This built-ins are easier to code.
+In the [last post](https://aingelmo.github.io/blog/ab-testing-part1){:target="_blank"}, we tried to perform an A/B test for a website in order to deploy a new website or not. However, all the calculations were done in a 'manual' way. Python offers us the possibility to use built-ins to achieve similar results. This built-ins are easier to code.
 
 ## Calculations
 
@@ -57,7 +57,7 @@ where:
 * `nobs` is the number of observations.
 * `alternative` is the the kind of hypothesis testing we are doing. In this case, we want to know if $$H_{1}$$ performs better than $$H_{0}$$ so we will select `smaller`.
 
-The data throwed by the proportion z_test is the following:
+The data thrown by the proportion z_test is the following:
 
 $$stat = 1.3109241984234394$$
 

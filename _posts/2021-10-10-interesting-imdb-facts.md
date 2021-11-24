@@ -1,5 +1,5 @@
 ---
-title: Interesting IMDB facts
+title: Interesting IMDb facts
 layout: post
 post-image: "https://images.pexels.com/photos/265685/pexels-photo-265685.jpeg"
 description: Have you ever wondered what's the most expensive movie ever made? In this post, you may find interesting answers.
@@ -73,9 +73,9 @@ At this point you may be wondering what is the most expensive movie ever made an
 | 6570 | Superman Returns                            | 6/28/06        | Bryan Singer   |  2.92051e+08 |   4.2302e+08  |
 | 5231 | Titanic                                     | 11/18/97       | James Cameron  |  2.71692e+08 |   2.50641e+09 |
 
-**The Warrior's Way**, an action/fantasy film by the korean director Lee Seung-moo in 2010 seems to be the highest budgeted movie in history. However, it is not. Someone added an extra 0 when inputing the data and made it look like the highest budgeted movie ever with 420,000,000 $. The correct amount is 42,000,000 $.
+**The Warrior's Way**, an action/fantasy film by the korean director Lee Seung-moo in 2010 seems to be the highest budgeted movie in history. However, it is not. Someone added an extra 0 when inputting the data and made it look like the highest budgeted movie ever with 420,000,000 $. The correct amount is 42,000,000 $.
 
-Knowing that, the second in place must be the highest budgeted movie in history: **Pirates of the Caribbean: On Stranger Tides** by american director Rob Marshall. It costed the incredible amount of 360,000,000 $. It also seems that Pirate of the Caribbean saga is quite costly because the third most expensive movie ever is **Pirates of the Caribbean: At World's End** by amercan director Gore Verbinski.
+Knowing that, the second in place must be the highest budgeted movie in history: **Pirates of the Caribbean: On Stranger Tides** by american director Rob Marshall. It costed the incredible amount of 360,000,000 $. It also seems that Pirate of the Caribbean saga is quite costly because the third most expensive movie ever is **Pirates of the Caribbean: At World's End** by american director Gore Verbinski.
 
 This movies are super expensive but, are they really the ones that get the most revenue? We'll find out.
 
@@ -91,7 +91,7 @@ It is nice to know the most expensive movies ever made but, what about the highe
 | 10594 | The Exorcist     | 12/26/73       | William Friedkin |  3.92893e+07 |   2.16732e+09 |
 |  9806 | Jaws             | 6/18/75        | Steven Spielberg |  2.83627e+07 |   1.90701e+09 |
 
-**Avatar**, a movie directed by James Cameron and released in 2007, is the highest grossing movie with more than 2.8 billion dolars in box office. But this is not the only James Cameron movie in the top 5! _Titanic_, released in 1997, was also directed by him! What a guy!
+**Avatar**, a movie directed by James Cameron and released in 2007, is the highest grossing movie with more than 2.8 billion dollars in box office. But this is not the only James Cameron movie in the top 5! _Titanic_, released in 1997, was also directed by him! What a guy!
 
 There are other well-known movies on the list like _Star Wars_ by George Lucas or _Jaws_ by Steven Spielberg.
 
@@ -121,7 +121,7 @@ Based on the previous list, **Star Wars** is the most profitable movie of all ti
 | 7277 | Pink Flamingos          | 3/12/72        | John Waters                    |      62574.7 |   3.12874e+07 |  3.12248e+07 |          499     |
 | 7178 | Super Size Me           | 1/17/04        | Morgan Spurlock                |      75039   |   3.29884e+07 |  3.29133e+07 |          438.617 |
 
-In this list, **Paranormal Activity**, a horror movie directed by Oren Peli released in 2007 appears at the first place. However, its profit is way less than _Star Wars_ or _Avatar_. How can this be possible? Well, _Paranormal Activity_ budget was only 15,000 dolars and it raised more than 200,000,000 dolars in revenue. This is huge! It raised more than 12,500 times its budget in revenue. Incredible.
+In this list, **Paranormal Activity**, a horror movie directed by Oren Peli released in 2007 appears at the first place. However, its profit is way less than _Star Wars_ or _Avatar_. How can this be possible? Well, _Paranormal Activity_ budget was only 15,000 dollars and it raised more than 200,000,000 dollars in revenue. This is huge! It raised more than 12,500 times its budget in revenue. Incredible.
 
 Taking a look at the list, we may find some other interesting insights. _The Blair Witch Project_ and _Eraserhead_ are also horror movies. Seems like this genre is very profitable!
 
@@ -137,9 +137,9 @@ Not all the movies are good. Some of them have a very high budget but perform ba
 | 2435 | The 13th Warrior  | 8/27/99        | John McTiernan             |  2.09448e+08 |   8.07671e+07 | -1.28681e+08 |
 | 4970 | Brother Bear      | 10/20/03       | Aaron Blaise, Robert Walker |  1.18535e+08 | 296.338       | -1.18535e+08 |
 
-Again, _The Warrior's Way_ appears to be the worst. However, we know that the budget is not correct so let's move to the second. **The Lone Ranger**, released by Disney in 2013 is the worst movie ever in economic terms. It made the studio lose more than 150,000,000 dolars. That is a huge loss!
+Again, _The Warrior's Way_ appears to be the worst. However, we know that the budget is not correct so let's move to the second. **The Lone Ranger**, released by Disney in 2013 is the worst movie ever in economic terms. It made the studio lose more than 150,000,000 dollars. That is a huge loss!
 
-Taking a deeper look into the table we find a interest fact. All of the movies were super expensive, costing more than 100,000,000 dolars. It looks like super productions can turn in a studio's biggest enemy.
+Taking a deeper look into the table we find a interest fact. All of the movies were super expensive, costing more than 100,000,000 dollars. It looks like super productions can turn in a studio's biggest enemy.
 
 ### Are more popular movies more profitable?
 
@@ -176,7 +176,7 @@ This is another question that may arise. Ok, we know the average rating of movie
 
 ![imdb-movies-rating-old-new.png](/assets/images/imdb-facts/imdb_movies_rating_old_new.png)
 
-The graph shows that old movies are slightly better rated than new movies. However, the difference is noth enough to affirm that old movies are better than new movies.
+The graph shows that old movies are slightly better rated than new movies. However, the difference is not enough to affirm that old movies are better than new movies.
 
 ## Conclusion
 
@@ -184,7 +184,7 @@ I could be exposing insights regarding this dataset. However, the post is gettin
 
 After analyzing the dataset, we may conclude the following:
 
-* Lots of movies are being done nowadays. However, this doesn't imply that all of them are profitable. The probabily of failing is as high as succeeding. _Avatar_, released in 2009, is the highest-grossing movie of all time and second most profitable. However, _The Lone Ranger_, released in 2013, is the worst profitable movie of all times. Studios shold be careful when releasing movies nowadays as people have more leisure activity options than 40 years ago.
+* Lots of movies are being done nowadays. However, this doesn't imply that all of them are profitable. The probability of failing is as high as succeeding. _Avatar_, released in 2009, is the highest-grossing movie of all time and second most profitable. However, _The Lone Ranger_, released in 2013, is the worst profitable movie of all times. Studios should be careful when releasing movies nowadays as people have more leisure activity options than 40 years ago.
 * Horror movies seems to perform well in terms of yield. _Paranormal Activity_ multiplied its budget by more than 12,000 times in revenue. This is a huge success, as well as _The Blair Witch Project_ and _Eraserhead_.
 * Older movies are better rated than newer ones. In the old days, as less movies were made, it was easier to make a good movie. However, nowadays the probability of making a bad movie is higher as the amount of movies has increased a lot.
 
