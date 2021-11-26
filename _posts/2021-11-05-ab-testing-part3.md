@@ -1,5 +1,5 @@
 ---
-title: Should I deploy my new website? Or better keep the old one? (Part 3: Logistic Regression)
+title: Should I deploy my new website? Or better keep the old one? (Part 3 - Logistic Regression)
 layout: post
 post-image: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg"
 description: A/B tests are very commonly performed by data analyst. In this post, I'll run some tests to help a fake company understand if they should implement the new page or keep the old one.
