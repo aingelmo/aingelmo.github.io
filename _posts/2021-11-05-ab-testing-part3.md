@@ -125,9 +125,9 @@ UK            0.0099    0.0133     0.7433  0.4573  -0.0162   0.0359
 
 Now we have the coefficients, taking United States as reference, we can know how users coming from Canada or United Kingdom. However, we cannot say that Canada users have a 0.04% less chance of being converted with the new website, we have to convert the coefficients before:
 
-$$$e^{UK} = 1.01$$$
+$$e^{UK} = 1.01$$
 
-$$$e^{CA} = 0.96$$$
+$$e^{CA} = 0.96$$
 
 We can say that users from United Kingdom would be 1.01 times more likely of being converted than people from the United States. On the other hand, users from Canada would be 0.96 times less likely of being converted than users from the US.
 
@@ -174,11 +174,11 @@ UK_ab_page    0.0314    0.0266     1.1807  0.2377  -0.0207   0.0835
 
 The  converted coefficients:
 
-$$$e^{UK_ab_page} = 1.032$$$
+$$e^{UK_{ab__page}} = 1.032$$
 
-$$$e^{CA_ab_page} = 0.954$$$
+$$e^{CA_ab_page} = 0.954$$
 
-$$$e^{UK} = 0.994$$$
+$$e^{UK} = 0.994$$
 
 Now we can know if the new page is working for the different countries. In this case, taking US as the base, the UK users will be 1.032 times more likely of being converted when landing in the new page. On the other hand, CA users will 0.954 times less likely of being converted when landing in the new page.
 

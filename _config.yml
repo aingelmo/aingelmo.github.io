@@ -59,7 +59,7 @@ plugins:
   - jekyll-admin
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-seotag
+  - jekyll-seo-tag
 
 # Permalink
 permalink: "blog/:title"
