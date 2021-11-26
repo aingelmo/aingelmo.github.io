@@ -189,3 +189,5 @@ The most interesting factor here is that, holding everything constant, UK users 
 We can say that logistic regressions suit A/B testing. However, it is really important to add as much relevant variables as we can to get more precise results. In this case, when adding the countries information, we could conclude that, depending on the country, the landing website has an impact on conversions.
 
 Despite being very little, when the amount of users is high, being 1.03 times more likely to convert the user does have an impact. More precisely, in the UK, the new website seems to be working better than the old ine. For others, like CA, the old one may work better than the new one.
+
+**For a more detailed explanation, please, consider taking a look to the Jupyter Notebook associated to this project on [my GitHub](https://github.com/aingelmo/portfolio/blob/main/Udacity/Project_3_Analyze%20AB%20Test%20Results/Analyze_ab_test_results.ipynb)**
