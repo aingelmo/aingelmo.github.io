@@ -123,7 +123,7 @@ UK            0.0099    0.0133     0.7433  0.4573  -0.0162   0.0359
 ==================================================================
 ```
 
-Now we have the coefficients, taking United States as reference, we can know how users coming from Canada or United Kingdom. However, we cannot say that Canada users have a 0.04% less chance of being converted with the new website, we have to convert the coefficients before:
+Now we have the coefficients, taking United States as reference, we can know how users coming from Canada or United Kingdom are being converted. However, we cannot say that Canada users have a 0.04% less chance of being converted with the new website, we have to convert the coefficients before:
 
 $$e^{UK} = 1.01$$
 
