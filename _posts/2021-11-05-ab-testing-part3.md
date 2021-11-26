@@ -174,9 +174,9 @@ UK_ab_page    0.0314    0.0266     1.1807  0.2377  -0.0207   0.0835
 
 The  converted coefficients:
 
-$$e^{UK_{ab__page}} = 1.032$$
+$$e^{UK\_ab\_page} = 1.032$$
 
-$$e^{CA_ab_page} = 0.954$$
+$$e^{CA\_ab\_page} = 0.954$$
 
 $$e^{UK} = 0.994$$
 
