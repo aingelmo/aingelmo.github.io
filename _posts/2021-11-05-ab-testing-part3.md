@@ -13,8 +13,6 @@ tags:
 
 ---
 
-## Introduction
-
 This is the last post of the A/B test series. You can check part 1 [here](https://aingelmo.github.io/blog/ab-testing-part1){:target="_blank"} and part 2 [here](https://aingelmo.github.io/blog/ab-testing-part2){:target="_blank"}. In this part, I will take a regression approach. More precisely, a logistic regression.
 
 ## Calculations
