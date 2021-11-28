@@ -1,7 +1,7 @@
 ---
 title: Analyzing WeRateDogs twitter profile
 layout: post
-post-image: "https://images.unsplash.com/photo-1546975490-a79abdd54533"
+post-image: "https://images.unsplash.com/photo-1512546148165-e50d714a565a"
 description: Do you want to know what is the cutest dog breed? And the most popular one? Let's take a look at the incredibly popular WeRateDogs.
 tags:
 - pandas
