@@ -23,13 +23,13 @@ In this blog post however, we will be focusing in the conclusions extracted from
 
 [WeRateDogs](https://twitter.com/dog_rates) joined twitter on November, 2015. Sinc then, they have been one of the most viral and active dog accounts on the platform but... have they always been so active? We can get a visual representation of **how WeRateDgos have been tweeting** along the timeframe analyzed.
 
-![Tweets Histogram](assets\images\weRateDogs\tweet-histogram.png)
+![Tweets Histogram](/assets/images/weRateDogs/tweet-histogram.png)
 
 The graph above shows the amount of tweets posted by the account between November 15th, 2015 and August 1st 2017. As we can see, the distribution is right skewed. This means that more tweets weere posted in the early stages of the profile. Howvery, it could wrong to affirm that. It is only correct to say that, based on the dataset, more tweets were posted in the early stages of the account.
 
 It is really interesting to know about the tweets frequency but you may be wondering, **what is the favourite dog breed for WeRateDogs?** We can answer this analyzing data from a neural network. This neural network analyzed each of the picture in WeRateDogs tweets and predicted its bread.
 
-![Most Common Dog Breeds](assets\images\weRateDogs\most-common-breeds.png)
+![Most Common Dog Breeds](/assets/images/weRateDogs/most-common-breeds.png)
 
 The most common dog breed identified by the algorithm is the golden retriever with almost 150 results. It is followed by the labrador retriever with 100 and the pembroke, also known as corgi, with 89 occurences.
 
