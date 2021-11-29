@@ -1,7 +1,7 @@
 ---
 title: Interesting IMDb facts
 layout: post
-post-image: "https://images.pexels.com/photos/265685/pexels-photo-265685.jpeg"
+post-image: "https://images.pexels.com/photos/265685/pexels-photo-265685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=720&w=1280"
 description: Have you ever wondered what's the most expensive movie ever made? In this post, you may find interesting answers.
 tags:
 - pandas
