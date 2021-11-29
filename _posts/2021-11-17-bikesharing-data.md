@@ -1,7 +1,7 @@
 ---
 title: Usage patterns in Ford GoBike bicycle sharing
 layout: post
-post-image: "https://images.unsplash.com/photo-1585822797375-2a38044b8499"
+post-image: "https://images.pexels.com/photos/3859984/pexels-photo-3859984.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=720&w=1280"
 description: Have you ever wondered when should you take a shared bike? When are the busiest hours? In this post, you may find useful information regarding that matter.
 tags:
 - pandas
