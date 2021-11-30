@@ -145,6 +145,39 @@ And this results are quite astonishing. We find that United Arab Emirates or Por
 
 Well, Gibraltar is a British territory in the South of Spain. The data of fully vaccinated people is measured in the number of completed doses they administrated so, maybe people from Spain were crossing the border to get vaccinated but do not live there.
 
+### Correlation between smoking population and total deaths
+
+To end my analysis, I wanted to write a medium complex query. I want to know if there is a positive correlation between the countries with the highest percentage of smoking population and deaths. The following query allows us to get the result:
+
+```sql
+SELECT
+	((tot_sum - (smokers_sum * deaths_per_100000_sum / _count)) / SQRT((smokers_sum_sq - pow(smokers_sum, 2.0) / _count) * (deaths_per_100000_sum_sq - pow(deaths_per_100000_sum, 2.0) / _count))) AS pearson_corr
+FROM(
+	SELECT
+		SUM(smokers) AS smokers_sum,
+		SUM(deaths_per_100000) AS deaths_per_100000_sum,
+		SUM(smokers * smokers) AS smokers_sum_sq,
+		SUM(deaths_per_100000 * deaths_per_100000) AS deaths_per_100000_sum_sq,
+		SUM(smokers * deaths_per_100000) AS tot_sum,
+		COUNT(*) AS _count
+	FROM
+		(SELECT
+			location,
+			(MAX(female_smokers) + MAX(male_smokers))/2 AS smokers,
+			MAX(total_deaths) / MAX(population) * 100000 AS deaths_per_100000
+		FROM covid_data
+		WHERE male_smokers IS NOT null AND continent IS NOT null AND total_deaths IS NOT null
+		GROUP BY location) AS t1
+	) AS t2
+```
+
+![Pearson coefficient](/assets/images/covid-sql/pearson-corr.png)
+
+The result proves our thoughts! A Pearson coefficient of 0.45 shows positive correlation. It is not as strong as expected because there are a lot of other variables to take into account when measuring total deaths by COVID-19. However, we can say that countries with a higher percentage of smokers have a higher mortality rate.
+
+_* For this result, I assumed that the percentage of males and females for each country was 50/50. This simplified the calculation and it is almost correct to affirm that as the gender distribution worldwide average is 50/50._
+_** There are some SQL clients that incorporate a built-in function to calculate the correlation. However, I wanted to make an universal query_
+
 ## End
 
 This is everything for today! Thank you for reading until the end. I could continue writing queries until I got bored but the article would be endless. I have written more interesting queries in my GitHub repo. You can check it out [here](https://github.com/aingelmo/portfolio/blob/main/covid_sql/COVID_Queries.sql){:target="_blank"}. I also built a dashboard built in dash with Python and HTML were you can browse all this information in real time and make your own comparisons. You can find it [here](https://aingelmo.github.io/dash){:target="_blank"}.
