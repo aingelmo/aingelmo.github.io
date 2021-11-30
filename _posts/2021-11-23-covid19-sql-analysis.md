@@ -176,6 +176,7 @@ FROM(
 The result proves our thoughts! A Pearson coefficient of 0.45 shows positive correlation. It is not as strong as expected because there are a lot of other variables to take into account when measuring total deaths by COVID-19. However, we can say that countries with a higher percentage of smokers have a higher mortality rate.
 
 _* For this result, I assumed that the percentage of males and females for each country was 50/50. This simplified the calculation and it is almost correct to affirm that as the gender distribution worldwide average is 50/50._
+
 _** There are some SQL clients that incorporate a built-in function to calculate the correlation. However, I wanted to make an universal query_
 
 ## End
