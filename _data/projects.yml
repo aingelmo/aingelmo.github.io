@@ -3,10 +3,10 @@
   link: https://github.com/aingelmo/FrogFit_Data_Extraction
   description: Power BI powered dashboard with ETL pipeline based on Python and Pandas.
 - name: Evolution of COVID | Powered by Plotly Dash
-  link: https://github.com/aingelmo/portfolio/blob/main/covid_heroku/main.py
-  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  link: https://github.com/aingelmo/portfolio/tree/main/covid_plotly-dash
+  image: https://cdn.pixabay.com/photo/2020/03/31/14/04/covid-19-4987797_960_720.jpg
   description: COVID data visualization powered by Dash and Plotly running in a Heroku app.
 - name: History of Olympic games | Powered by Tableau
   link: https://github.com/aingelmo/portfolio/tree/main/olympics_tableau
-  image: https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_960_720.jpg
+  image: https://cdn.pixabay.com/photo/2015/08/31/07/32/olympic-games-915079_960_720.jpg
   description: Olympic Games visualization running on Tableau.
