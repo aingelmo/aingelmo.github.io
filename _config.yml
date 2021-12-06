@@ -12,11 +12,11 @@ title: Andrés Ingelmo Poveda
 # Description of the Site
 description: Showcase for Andrés Ingelmo's projects and analyses
 # URL of Image of the Site
-site-image: /assets/images/meta.jpg
+site-image: /assets/images/logo2.png
 # Keywords of the Site
 site-keywords: Andrés Ingelmo, Data Analyst, Business Intelligence, Power BI, Data Science, Tableau, Pandas, Python, SQL, portfolio
 # URL for the Image of custom Favicon
-favicon-url: /assets/images/logo-white.png
+favicon-url: /assets/images/logo2.png
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 heroimage: https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
