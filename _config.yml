@@ -16,10 +16,10 @@ site-image: /assets/images/meta.jpg
 # Keywords of the Site
 site-keywords: Andrés Ingelmo, Data Analyst, Business Intelligence, Power BI, Data Science, Tableau, Pandas, Python, SQL, portfolio
 # URL for the Image of custom Favicon
-favicon-url: 
+favicon-url: /assets/images/logo-white.png
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg
+heroimage: https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
