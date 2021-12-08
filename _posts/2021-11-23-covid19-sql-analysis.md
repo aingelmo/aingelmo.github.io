@@ -181,6 +181,6 @@ _** There are some SQL clients that incorporate a built-in function to calculate
 
 ## End
 
-This is everything for today! Thank you for reading until the end. I could continue writing queries until I got bored but the article would be endless. I have written more interesting queries in my GitHub repo. You can check it out [here](https://github.com/aingelmo/portfolio/blob/main/covid_sql/COVID_Queries.sql){:target="_blank"}. I also built a dashboard built in dash with Python and HTML were you can browse all this information in real time and make your own comparisons. You can find it [here](https://aingelmo.github.io/dash){:target="_blank"}.
+This is everything for today! Thank you for reading until the end. I could continue writing queries until I got bored but the article would be endless. I have written more interesting queries in my GitHub repo. You can check it out [here](https://github.com/aingelmo/portfolio/blob/main/covid_sql/COVID_Queries.sql){:target="_blank"}. I also built a dashboard built in dash with Python and HTML were you can browse all this information in real time and make your own comparisons. You can find it [here](https://aingelmo.github.io/covid-plotly-dash){:target="_blank"}.
 
 If you liked my article. Please, consider reading another one from my [blog](https://aingelmo.github.io/blog){:target="_blank"} or checkout my [projects](https://aingelmo.github.io/project){:target="_blank"}.
