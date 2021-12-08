@@ -10,4 +10,4 @@ Analyze and compare data between different variables on time. The main chart wil
 </div>
 
 *If you have any problem with the layout or the responsiveness, please go to [this site](https://aingelmo-covid-dash.herokuapp.com/){:target="_blank"}.
-**The source code can be found at [my GitHub](https://github.com/aingelmo/portfolio/tree/main/covid_heroku){:target="_blank"}.
+**The source code can be found at [my GitHub](https://github.com/aingelmo/portfolio/tree/main/covid_plotly-dash){:target="_blank"}.
