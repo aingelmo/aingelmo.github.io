@@ -109,4 +109,4 @@ In this case, the $$p-value$$ is 0.9085 which is more than error 1 margin (0.05)
 
 After analyzing the dataset and performing an A/B testing, we do not have enough evidence to support the null hypothesis. In other words, we cannot say that the new website will bring more conversions based on the actual data. We would need to run the test for longer to check if the data changes or, discard the possibility of building a new website that way.
 
-Thank you for reading until the end. If you are interested in knowing more about the calculations or a more detailed analysis, please, check my **[jupyter notebook](https://github.com/aingelmo/portfolio/blob/main/Udacity/Project_3_Analyze%20AB%20Test%20Results/Analyze_ab_test_results_notebook.ipynb)**.
+Thank you for reading until the end. If you are interested in knowing more about the calculations or a more detailed analysis, please, check my **[jupyter notebook](https://github.com/aingelmo/portfolio/blob/main/Udacity/Project_3_Analyze%20AB%20Test%20Results/Analyze_ab_test_results.ipynb)**.
