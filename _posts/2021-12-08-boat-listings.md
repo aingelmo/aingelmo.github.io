@@ -36,7 +36,7 @@ Data columns (total 10 columns):
  9   Number of views last 7 days  9888 non-null   int64
  ```
 
- As we can see, the data is not clean enough. A lot of observations are missing and, well, the price column contains different currencies so... If you want to check out all of of the steps I followed to clean up the data. Please, check out the [jupyter notebook associated with the post](https://github.com/aingelmo/portfolio/blob/main/datacamp-certification_jupyter/notebook.ipynb).
+ As we can see, the data is not clean enough. A lot of observations are missing and, well, the price column contains different currencies so... If you want to check out all of of the steps I followed to clean up the data. Please, check out the [jupyter notebook associated with the post](https://github.com/aingelmo/portfolio/blob/main/jupyter_datacamp-certification/notebook.ipynb).
 
 After cleaning the dataset, I decided I was gonna create a filtered dataframe with the top 1% of the most viewed ads. Why? Because they represent almost 7% of the total views and I think it is representative enough. Don't forget, we are trying to check out the top performing ads to look for common patterns.
 

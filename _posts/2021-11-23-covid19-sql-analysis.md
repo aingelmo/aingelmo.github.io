@@ -16,7 +16,7 @@ COVID-19 is now part of our lives. It has broken many dinners, many beers and ma
 
 The dataset used contains information regarding vaccinations, confirmed cases, confirmed deaths and other variables of interest for more than 200 countries since nearly the beginning of COVID-19. It is updated everyday by Our World In Data and contains metrics from multiple sources. You can check it in [their Github repo](https://github.com/owid/covid-19-data/tree/master/public/data){:target="_blank"}.
 
-I have taken all the data and built a SQL database using PostgreSQL in my Raspberry Pi so I can access it from all my local network. You can check my project and Python scripts used [here](https://github.com/aingelmo/portfolio/tree/main/covid_sql){:target="_blank"}.
+I have taken all the data and built a SQL database using PostgreSQL in my Raspberry Pi so I can access it from all my local network. You can check my project and Python scripts used [here](https://github.com/aingelmo/portfolio/tree/main/sql_covid){:target="_blank"}.
 
 ## Analysis
 
@@ -181,6 +181,6 @@ _** There are some SQL clients that incorporate a built-in function to calculate
 
 ## End
 
-This is everything for today! Thank you for reading until the end. I could continue writing queries until I got bored but the article would be endless. I have written more interesting queries in my GitHub repo. You can check it out [here](https://github.com/aingelmo/portfolio/blob/main/covid_sql/COVID_Queries.sql){:target="_blank"}. I also built a dashboard built in dash with Python and HTML were you can browse all this information in real time and make your own comparisons. You can find it [here](https://aingelmo.github.io/covid-plotly-dash){:target="_blank"}.
+This is everything for today! Thank you for reading until the end. I could continue writing queries until I got bored but the article would be endless. I have written more interesting queries in my GitHub repo. You can check it out [here](https://github.com/aingelmo/portfolio/blob/main/sql_covid/COVID_Queries.sql){:target="_blank"}. I also built a dashboard built in dash with Python and HTML were you can browse all this information in real time and make your own comparisons. You can find it [here](https://aingelmo.github.io/covid-plotly-dash){:target="_blank"}.
 
 If you liked my article. Please, consider reading another one from my [blog](https://aingelmo.github.io/blog){:target="_blank"} or checkout my [projects](https://aingelmo.github.io/project){:target="_blank"}.
